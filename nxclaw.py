@@ -663,10 +663,10 @@ class NXClawUI:
         cls.clear()
         print(cls.c(cls.BANNER, cls.BRIGHT_GREEN))
         sub = "  >> Autonomous Terminal Agent <<"
-        print(cls.c(sub, ui.CYAN))
+        print(cls.c(sub, cls.CYAN)) 
         print(cls.c(f"  v{VERSION}  |  {platform.system()}", cls.GRAY))
         print()
-
+        
     @classmethod
     def boot_sequence(cls):
         steps = [
